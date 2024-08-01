@@ -1,0 +1,27 @@
+:root{
+    --Light-red: hsl(0, 100%, 67%)
+    --Orangey-yellow: hsl(39, 100%, 56%)
+    --Green-teal: hsl(166, 100%, 37%)
+    --Cobalt-blue: hsl(234, 85%, 45%)
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 400px;
+    height: 400px;
+    
+}
