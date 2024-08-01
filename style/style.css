@@ -1,8 +1,9 @@
 :root{
-    --Light-red: hsl(0, 100%, 67%)
-    --Orangey-yellow: hsl(39, 100%, 56%)
-    --Green-teal: hsl(166, 100%, 37%)
-    --Cobalt-blue: hsl(234, 85%, 45%)
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+    --black: hsl(0, 0%, 0%);
 }
 body{
     margin: 0;
@@ -13,6 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-size: 14px;
 }
 main{
     margin: 0;
@@ -21,7 +23,26 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 400px;
-    height: 400px;
     
+}
+.leftPart{
+    margin: 0;
+    padding: 0;
+    width: 19rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.rightPart{
+    width: 19rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
