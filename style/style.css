@@ -15,6 +15,7 @@ body{
     align-items: center;
     flex-direction: column;
     font-size: 14px;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 main{
     margin: 0;
@@ -26,10 +27,8 @@ main{
     
 }
 .leftPart{
-    margin: 0;
-    padding: 0;
-    width: 19rem;
-    height: 27rem;
+   
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,11 +37,45 @@ main{
     
 }
 .rightPart{
-    width: 19rem;
-    height: 27rem;
+   
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 100%;
+    margin-top: 0.6rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--Green-teal);
+    
+}
+#score{
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    margin-top: 1.2rem;
+    font-weight: 700;
+}
+#maxScore{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+.description{
+    text-align: center;
+    width: 12.4rem;
+    margin: 0 3rem;
+    margin-bottom: 2.5rem;
+}
+h1{
+    margin-bottom: 0.75rem;
+    margin-top:2rem ;
 }
