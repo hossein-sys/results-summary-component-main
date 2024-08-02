@@ -139,6 +139,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 img{
     width: 1.1rem;
@@ -185,4 +186,9 @@ img{
 .dividedby{
     margin-left: 0.3rem;
     color: rgb(146, 146, 146);
+}
+#next:hover{
+    background-image: linear-gradient( to bottom, var(--Light-slate-blue), var(--Light-royal-blue));
+    color: white;
+    transition:0.3s ;
 }
